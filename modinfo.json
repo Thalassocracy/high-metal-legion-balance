@@ -1,0 +1,23 @@
+{
+  "author": "Dissonant, Legion Team",
+  "build": "113867",
+  "category": ["titans", "units", "faction"],
+  "context": "server",
+  "date": "2019/10/24",
+  "dependencies": [
+    "com.pa.legion-expansion-server",
+    "com.pa.legion-expansion-client"
+  ],
+  "description": "Changes Legion Balance a bit to bring it more in line with MLA for team games, especially high-metal barren moons. Forked from Legion 1.9.2",
+  "display_name": "Legion Balance for High Metal Moons",
+  "forum": "",
+  "icon": "https://i.imgur.com/19eDKP5.png",
+  "identifier": "com.pa.legion-expansion-server",
+  "scenes": {
+    "icon_atlas": ["coui://ui/mods/com.pa.legion-expansion/icon_atlas.js"],
+    "new_game": ["coui://ui/mods/com.pa.legion-expansion/new_game.js"]
+  },
+  "signature": "not yet implemented",
+  "version": "balance",
+  "titansOnly": true
+}
