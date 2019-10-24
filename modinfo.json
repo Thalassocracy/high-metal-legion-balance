@@ -12,12 +12,9 @@
   "display_name": "Legion Balance for High Metal Moons",
   "forum": "",
   "icon": "https://i.imgur.com/19eDKP5.png",
-  "identifier": "com.pa.legion-expansion-server",
-  "scenes": {
-    "icon_atlas": ["coui://ui/mods/com.pa.legion-expansion/icon_atlas.js"],
-    "new_game": ["coui://ui/mods/com.pa.legion-expansion/new_game.js"]
-  },
+  "identifier": "com.pa.high-metal-legion-balance",
   "signature": "not yet implemented",
   "version": "balance",
-  "titansOnly": true
+  "titansOnly": true,
+  "priority": 90
 }
