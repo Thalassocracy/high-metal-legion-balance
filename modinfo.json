@@ -14,7 +14,7 @@
   "icon": "https://i.imgur.com/19eDKP5.png",
   "identifier": "com.pa.high-metal-legion-balance",
   "signature": "not yet implemented",
-  "version": "balance",
+  "version": "0.01",
   "titansOnly": true,
   "priority": 90
 }
