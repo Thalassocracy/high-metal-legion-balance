@@ -1,6 +1,6 @@
 {
   "base_spec": "/pa/ammo/base_artillery/base_artillery.json",
-  "damage": 450,
+  "damage": 300,
   "events": {
     "died": {
       "audio_cue": "/SE/Impacts/bomb_bot_plasma",
@@ -30,15 +30,21 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 50,
+          "radius": 10,
+          "shape": "capsule"
+        },
+        {
+          "channel": "radar",
+          "radius": 70,
+          "layer": "surface_and_air",
           "shape": "capsule"
         }
       ]
     }
   },
   "show_strategic_icon": true,
-  "splash_damage": 150,
+  "splash_damage": 50,
   "splash_damages_allies": false,
-  "splash_radius": 15,
+  "splash_radius": 10,
   "strategic_icon_priority": 0
 }
