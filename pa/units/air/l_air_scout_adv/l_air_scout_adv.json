@@ -97,6 +97,7 @@
     "move_speed": 100,
     "turn_speed": 180
   },
+  "gravwell_velocity_multiplier": 6.0,
   "recon": {
     "observable": {
       "ignore_radar": true,

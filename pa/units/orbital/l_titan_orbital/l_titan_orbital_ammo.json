@@ -3,7 +3,7 @@
   "base_spec": "/pa/ammo/base_ammo/base_ammo.json",
   "burn_damage": 200,
   "burn_radius": 137,
-  "damage": 300,
+  "damage": 180,
   "damage_volume": {
     "burnable_remove_radius": 100,
     "delay": 0,

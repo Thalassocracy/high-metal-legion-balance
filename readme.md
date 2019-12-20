@@ -33,6 +33,66 @@ Default Build Separation Radius: 100 -> 120
 Explosion Radius: 250 -> 300
 Explosion Full Damage Radius: 50 -> 60
 
+## FABRICATORS
+
+### Fabrication Walker
+*Most competitive non-naval openings revolve heavily around the usage of MLA Bot Fabricators or Legion Fabrication Walkers. In order to compensate for the changes with T1 metal, we'll be adjusting the Fabrication Walker so it's a bit faster (albeit still slower than its MLA counterpart), costs less, and has the same fabrication rates as its MLA counterpart.*
+
+*We hope the cheaper cost of a Fabrication Walker will help allow Legion players to get combat units onto the field earlier.*
+Cost: 150 -> 135
+Metal Usage: 9 -> 8
+Energy Usage: 650 -> 600
+Movement Speed: 14 -> 15
+Health: 65 -> 50
+
+### Armour Fabricator
+*The MLA Fabrication Vehicle and Legion Armour Fabricator are much less commonly seen in openings. As a result, the speed of the Armour Fabricator is less important to the viability of Legion earlygame expansion.*
+
+Cost: 200 -> 185
+Metal Usage: 13 -> 11
+Energy Usage: 850 -> 700
+Build Range: 45 -> 55
+
+### Fabrication Flyer
+Cost: 225 -> 210
+Metal Usage: 10 -> 9
+Does not show up on enemy radar.
+
+### Fabrication Ship
+*Due to the sensitive nature of naval openings and the fact that MLA naval fabricators are already excruciatingly slow, we decided that it was best for the Fabrication Ship to have the same statistics as its MLA counterpart for now.*
+Cost: 240 -> 200
+Metal Usage: 16 -> 14
+Energy Usage: 850 -> 800
+Movement Speed: 9 -> 10
+
+### Advanced Fabrication Walker
+*We decided to take a similar approach here to the approach we took with the T1 Armour Fabricator*
+Cost: 2000 -> 1800
+Metal Usage: 50 -> 45
+Energy Usage: 2200 -> 1800
+Movement Speed: 14 -> 15
+Build Range: 45 -> 60
+Health: 150 -> 250
+
+### Advanced Armour Fabricator
+Cost: 2250 -> 2025
+Metal Usage: 70 -> 60
+Energy Usage: 2750 -> 2250
+Movement Speed: 10 -> 11
+Build Range: 45 -> 60
+
+### Advanced Fabrication Flyer
+Cost: 2400 -> 1950
+Metal Usage: 60 -> 54
+Energy Usage: 2500 -> 2250
+Does not show up on enemy radar.
+
+### Advanced Fabrication Vessel
+Cost: 2700 -> 2400
+Metal Usage: 90 -> 80
+Movement Speed: 9 -> 10
+Health: 675 -> 600
+
 ##  FOUNDRIES
 *Legion Foundries currently cost a bit more; their T1 Foundries specifically cost 10% more than MLA counterparts (without faster fabrication speed). This is particularly noticeable in T1. We've brought down Legion Foundry buildcosts to be in line with MLA. This will hopefully allow them to act more aggressively in the earlygame.*
 
@@ -77,87 +137,139 @@ Energy Usage: 1900 -> 1750
 *This is not an extremely well-known fact, but no factory in the game builds as fast as the Starcannon for its cost. For only 900 metal, you get production comparable to a 4500-metal T2 factory.*
 
 *They aren't exactly commonly complained about though, so we won't touch them too much for now.*
-Cost: 900 -> 1200
+Cost: 900 -> 1500
 Metal Usage: 45 -> 35
+Cooldown: 0 -> 10
 
-## FABRICATORS
+## DEFENSES
+*Legion defensive structures are currently notorious for being difficult to deal with. We've shifted balance a bit in order to make turtling slightly weaker as Legion.*
 
-### Fabrication Walker
-*Most competitive non-naval openings revolve heavily around the usage of MLA Bot Fabricators or Legion Fabrication Walkers. In order to compensate for the changes with T1 metal, we'll be adjusting the Fabrication Walker so it's a bit faster (albeit still slower than its MLA counterpart), costs less, and has the same fabrication rates as its MLA counterpart.*
+### Jackal
+*Legion's ability to expand is partially impacted by the high expense of its defensive structures. We've thus made the Jackal both cheaper and weaker to encourage a slightly more rapid expansion rate for Legion players.*
 
-*We hope the cheaper cost of a Fabrication Walker will help allow Legion players to get combat units onto the field earlier.*
-Cost: 150 -> 135
-Metal Usage: 9 -> 8
-Energy Usage: 650 -> 600
-Movement Speed: 14 -> 15
-Health: 65 -> 50
+Cost: 350 -> 300
+Health: 750 -> 500
+Fire Rate: 15 -> 12
 
-### Armour Fabricator
-*The MLA Fabrication Vehicle and Legion Armour Fabricator are much less commonly seen in openings. As a result, the speed of the Armour Fabricator is less important to the viability of Legion earlygame expansion.*
-
-Cost: 200 -> 185
-Metal Usage: 13 -> 11
-Energy Usage: 850 -> 700
-Build Range: 45 -> 55
-
-### Fabrication Flyer
-Cost: 225 -> 210
-Metal Usage: 10 -> 9
-Does not show up on enemy radar.
-
-### Fabrication Ship
-*Due to the sensitive nature of naval openings and the fact that MLA naval fabricators are already excruciatingly slow, we decided that it was best for the Fabrication Ship to have the same statistics as its MLA counterpart for now.*
-Cost: 240 -> 200
-Metal Usage: 16 -> 14
-Energy Usage: 850 -> 800
-Movement Speed: 9 -> 10
+### Scarab
+Cost: 500 -> 400
+Health: 2500 -> 1750
+Damage: 300 -> 250
+Fire Rate: 1 -> 0.8
 
 
-### Advanced Fabrication Walker
-*We decided to take a similar approach here to the approach we took with the T1 Armour Fabricator*
-Cost: 2000 -> 1800
-Metal Usage: 50 -> 45
-Energy Usage: 2200 -> 1800
-Movement Speed: 14 -> 15
-Build Range: 45 -> 60
-Health: 150 -> 250
+### Hive
+Health: 1000 -> 750
+Ammo capacity: 2800 -> 3000
+Ammo per shot: 1400 -> 1500
+Range: 180 -> 165
+### Spawned Swarm
+Fire Rate: 5 -> 4
 
-### Advanced Armour Fabricator
-Cost: 2250 -> 2025
-Metal Usage: 70 -> 60
-Energy Usage: 2750 -> 2250
-Movement Speed: 10 -> 11
-Build Range: 45 -> 60
+## ARMOUR
 
-### Advanced Fabrication Flyer
-Cost: 2400 -> 1950
-Metal Usage: 60 -> 54
-Energy Usage: 2500 -> 2250
-Does not show up on enemy radar.
+### Shank
+Health: 300 -> 275
+Fire Rate: 0.9 -> 0.7
 
-### Advanced Fabrication Vessel
-Cost: 2700 -> 2400
-Metal Usage: 90 -> 80
-Movement Speed: 9 -> 10
-Health: 675 -> 600
+### Scorpion
+*Ever since the Leveler has had its range buffed to 140, the Scorpion hasn't been able to compete with it anymore. We've buffed its range to 160 as a result.*
+
+*On the other hand, the Scorpion also has some insane scaling due to its excessive splash damage. We've increased its single-target DPS a bit to compensate for nerfing its splash damage.*
+
+Health: 1650 -> 1400
+Range: 140 -> 155
+Fire Rate: 0.4 -> 0.5
+Splash Range: 15 -> 7.5
+Full Damage Splash Range: 4 -> 3
+Splash damages allies: True -> False
+
 
 ## WALKERS
 
 ### Peacekeeper
 Movement Speed: 15 -> 16
 
+### Lancer
+*The Lancer has always been problematic. It wants to be an anti-vehicle unit, but it has always been better at kiting Dox than fighting the Ant.*
+
+*We want to restore the Lancer sniper fantasy, but balancing that is difficult.*
+Movement Speed: 15 -> 12
+Fire Rate: 0.61 -> 0.5
+Damage: 125 -> 175
+Range: 75 -> 100
+Pitch Rate: 360 -> 45
+Yaw Rate: 360 -> 45
+Initial Projectile Velocity: 500 -> 100
+Max Projectile Velocity: 500 -> 200
+Projectile Lifetime: 0.28 -> 1
+AT Commander modifier: 1.3 -> 1
+AT Structure modifier: 1.3 -> 1
+AT Vehicle modifier: 1.3 -> 1
+
+### Patriot
+Movement Speed: 15 -> 14
+
 ### Purger
-Cost: 50 -> 75
+Cost: 50 -> 60
 Health: 40 -> 10
-Max Speed: 30 -> 25
+Speed: 30 -> 25
 Vision Radius: 50 -> 10
 Radar Radius: 0 -> 70
 Splash Damage: 150 -> 50
 Splash Radius: 15 -> 10
 
-## STARSHIPS
+### Miniman
+Speed: 7 -> 10
+Damage: 500 -> 300
+
+### Necromancer
+*We wanted to encourage players to mix Necromancers into their main army composition. As a result, we removed the on-death explosion from the Necromancer.*
+
+On death explosion: Removed
+Health: 2500 -> 1000
+Range: 180 -> 300
+Charge Rate: 35 -> 60
+Cost: 1400 -> 1200
+Vision: 150 -> 250
+
+*Side note: the Necromancer used to be less efficient than a factory at producing Purgers; it used 60 metal per Purger while the factory used 50 metal per Purger. However, since we nerfed Purgers to cost 60 metal, Necromancers now have the same metal efficiency as a factory for Purger production!*
+
+
+## FLYERS
+
+### Infiltrator
+*The Infiltrator currently travels extremely slowly between planets. We've ammended that.*
+Gravwell Multiplier: 1 -> 6
+
+## ORBITAL STRUCTURES
 
 ### Centurion:
 *For some reason, the Legion team doubled the amount of projectiles that the Centurion fires against orbital targets. Other than this, the Centurion is statistically identical to the MLA Anchor.*
 
 Projectiles per fire: 2 -> 1
+
+## STARSHIPS
+
+### Viper
+*The Viper is somewhat weaker for its cost than the Avenger, in normal circumstances. We've attempted to address that to some degree with a slight cost decrease.*
+
+Cost: 350 -> 330
+
+### Imperator
+*For some reason, the Imperator is almost strictly better than its Omega counterpart. We've tried to amend this a bit with some nerfs to the Imperator's anti-orbital capabilities.*
+
+Health: 5500 -> 3500
+#### Fast Anti-Orbital Weapon
+Range: 150 -> 120
+Damage: 65 -> 50
+#### Slow Anti-Orbital Weapon
+Range: 250 -> 200
+Fire Rate: 0.2 -> 0.16
+
+### Tyr
+*All the other Titans in the game cost 30000. We thought it was weird that the Tyr cost 40000. As a result, we decided to scale down the Tyr a bit.*
+
+Cost: 40000 -> 30000
+Damage: 300 -> 180
+Health: 21000 -> 17500
