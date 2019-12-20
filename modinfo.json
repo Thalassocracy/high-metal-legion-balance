@@ -1,9 +1,9 @@
 {
   "author": "Dissonant, Legion Team",
-  "build": "113867",
+  "build": "113936",
   "category": ["titans", "units", "faction"],
   "context": "server",
-  "date": "2019/10/24",
+  "date": "2019/12/19",
   "dependencies": [
     "com.pa.legion-expansion-server",
     "com.pa.legion-expansion-client"
@@ -14,7 +14,7 @@
   "icon": "https://i.imgur.com/19eDKP5.png",
   "identifier": "com.pa.high-metal-legion-balance",
   "signature": "not yet implemented",
-  "version": "0.01",
+  "version": "0.02",
   "titansOnly": true,
   "priority": 90
 }

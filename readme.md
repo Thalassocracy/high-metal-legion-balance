@@ -177,9 +177,8 @@ Fire Rate: 0.9 -> 0.7
 
 *On the other hand, the Scorpion also has some insane scaling due to its excessive splash damage. We've increased its single-target DPS a bit to compensate for nerfing its splash damage.*
 
-Health: 1650 -> 1400
-Range: 140 -> 155
-Fire Rate: 0.4 -> 0.5
+Health: 1650 -> 1700
+Fire Rate: 0.4 -> 0.75
 Splash Range: 15 -> 7.5
 Full Damage Splash Range: 4 -> 3
 Splash damages allies: True -> False
@@ -189,20 +188,21 @@ Splash damages allies: True -> False
 
 ### Peacekeeper
 Movement Speed: 15 -> 16
+Health: 140 -> 100
+Damage: 19.5 -> 20
+Fire Rate: 1.2 -> 1.1
 
 ### Lancer
 *The Lancer has always been problematic. It wants to be an anti-vehicle unit, but it has always been better at kiting Dox than fighting the Ant.*
 
-*We want to restore the Lancer sniper fantasy, but balancing that is difficult.*
-Movement Speed: 15 -> 12
-Fire Rate: 0.61 -> 0.5
+*We want to restore the Lancer sniper fantasy, but balancing that is difficult. It seems like a lower pitch rate is sufficient to allow for this though.*
+Movement Speed: 15 -> 14
 Damage: 125 -> 175
+Fire Rate: 0.61 -> 0.5
 Range: 75 -> 100
-Pitch Rate: 360 -> 45
-Yaw Rate: 360 -> 45
-Initial Projectile Velocity: 500 -> 100
-Max Projectile Velocity: 500 -> 200
-Projectile Lifetime: 0.28 -> 1
+Pitch Rate: 360 -> 55
+Yaw Rate: 360 -> 55
+Projectile Lifetime: 0.28 -> 0.3
 AT Commander modifier: 1.3 -> 1
 AT Structure modifier: 1.3 -> 1
 AT Vehicle modifier: 1.3 -> 1
