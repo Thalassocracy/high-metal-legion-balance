@@ -168,7 +168,7 @@ Version 0.03
 - Ammo per shot: 1400 -> 1500
 - Range: 180 -> 165
 - **Spawned Swarm**
-...* Fire Rate: 5 -> 4
+  * Fire Rate: 5 -> 4
 
 ## ARMOUR
 
@@ -267,11 +267,11 @@ Damage: 125 -> 175
 
 - Health: 5500 -> 3500
 - **Fast Anti-Orbital Weapon**
-..- Range: 150 -> 120
-..- Damage: 65 -> 50
+  - Range: 150 -> 120
+  - Damage: 65 -> 50
 - **Slow Anti-Orbital Weapon**
-..- Range: 250 -> 200
-..- Fire Rate: 0.2 -> 0.16
+  - Range: 250 -> 200
+  - Fire Rate: 0.2 -> 0.16
 
 ### Tyr
 *All the other Titans in the game cost 30000. We thought it was weird that the Tyr cost 40000. As a result, we decided to scale down the Tyr a bit.*
