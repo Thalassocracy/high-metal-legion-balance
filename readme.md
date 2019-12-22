@@ -167,7 +167,7 @@ Version 0.03
 - Ammo capacity: 2800 -> 3000
 - Ammo per shot: 1400 -> 1500
 - Range: 180 -> 165
-- **Spawned Swarm**
+- Spawned Swarm:
   * Fire Rate: 5 -> 4
 
 ## ARMOUR
@@ -266,10 +266,10 @@ Damage: 125 -> 175
 *For some reason, the Imperator is almost strictly better than its Omega counterpart. We've tried to amend this a bit with some nerfs to the Imperator's anti-orbital capabilities.*
 
 - Health: 5500 -> 3500
-- **Fast Anti-Orbital Weapon**
+- Fast Anti-Orbital Weapon:
   - Range: 150 -> 120
   - Damage: 65 -> 50
-- **Slow Anti-Orbital Weapon**
+- Slow Anti-Orbital Weapon:
   - Range: 250 -> 200
   - Fire Rate: 0.2 -> 0.16
 
