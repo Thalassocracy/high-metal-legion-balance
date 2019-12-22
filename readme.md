@@ -176,18 +176,33 @@ Version 0.03
 - Health: 300 -> 275
 - Fire Rate: 0.9 -> 0.7
 
+### Maul
+*The Maul is a support unit that doesn't see quite as much usage as the MLA Inferno. The fact that it's the slowest unit in almost any army composition certainly doesn't help. This change will hopefully penalize players less for mixing a few Mauls into their Armour armies.*
+
+- Speed: 8 -> 10
+
 ### Scorpion
 *Ever since the Leveler has had its range buffed to 140, the Scorpion hasn't been able to compete with it anymore. We've buffed its range to 160 as a result.*
 
-*On the other hand, the Scorpion also has some insane scaling due to its excessive splash damage. We've increased its single-target DPS a bit to compensate for nerfing its splash damage.*
+*On the other hand, the Scorpion also has some insane scaling due to its excessive splash damage. We've increased its single-target DPS a bit to compensate for heavily nerfing its splash radius.*
 
 - Health: 1650 -> 1700
+- Speed: 8 -> 9
 - Range: 140 -> 145
 - Fire Rate: 0.4 -> 0.75
 - Splash Range: 15 -> 7.5
 - Full Damage Splash Range: 4 -> 3
 - Splash damages allies: True -> False
 
+### Deathmark
+*Since we've sped up all of the other 7 and 8 speed Legion units to some extent, it'd be a bit awkward to leave the Deathmark out of this.*
+
+- Speed: 8 -> 9
+
+### Havoc
+*The Havoc was historically a Leveler-killing unit, but getting a Havoc into range in the world of 140-range Levelers is rough.*
+
+- Cost: 750 -> 600
 
 ## WALKERS
 
@@ -243,10 +258,30 @@ Damage: 125 -> 175
 
 ## FLYERS
 
+### Marauder
+*The Marauder is in an awkward position due to the fact that it serves the roles of both scout and harass unit. It seems to be undertuned, however.*
+- Build Cost: 240 -> 180
+- Damage: 16 -> 15
+
+### Lockheed
+*As the result of a nerf to the MLA Kestrel, the Lockheed is now awkwardly strictly better than the Kestrel. We've applied the Kestrel nerfs to the Lockheed in addition to some other well-deserved adjustments.*
+
+- Build Cost: 800 -> 1000
+- Main Weapon:
+  - Damage: 20 -> 10
+- Rocket Weapon:
+  - Damage: 250 -> 150
+
 ### Infiltrator
 *The Infiltrator currently travels extremely slowly between planets. We've ammended that.*
 
 - Gravwell Multiplier: 1 -> 6
+
+### Meteor
+*The Meteor is currently extremely difficult to deal with without air superiority. We've reduced their range and health so they aren't quite as untouchable versus ground forces.*
+
+Range: 250 -> 190
+Health: 2000 -> 1000
 
 ## ORBITAL STRUCTURES
 
@@ -256,6 +291,25 @@ Damage: 125 -> 175
 - Projectiles per fire: 2 -> 1
 
 ## STARSHIPS
+
+### Comet
+*While the Comet isn't a Starship proper, it's role is closely intertwined with that of the Starships.*
+
+*The Comet has access to many capabilities that are franky unfair to MLA. It provides similar functionality to a Helios for only 4000 metal.*
+
+*An old justification for the Comet's cheap cost is to help improve Legion mobility in single-planet 1v1s. Unfortunately, it is extremely overtuned whenever multiple planets are involved. Its role assisting Legion with its mobility issues in 1v1 should hopefully not be missed too much, since this mod also buffs Legion mobility in many ways across the board.*
+
+- Cost: 4000 -> 15000
+- Health: 1900 -> 6000
+- Ammo Capacity: 6 -> 20
+- Ammo Usage Per Shot: 2 -> 1
+- Fire Rate: 2 -> 10
+- Carpet Fire Wait For Full Ammo: True -> False
+- Damage: 40 -> 60
+- Splash Damage: 0 -> 10
+- Splash Radius: 0 -> 0.75
+
+
 
 ### Viper
 *The Viper is somewhat weaker for its cost than the Avenger, in normal circumstances. We've attempted to address that to some degree with a slight cost decrease.*
