@@ -182,20 +182,20 @@ Version 0.03
 - Speed: 8 -> 10
 
 ### Scorpion
-*Ever since the Leveler has had its range buffed to 140, the Scorpion hasn't been able to compete with it anymore. We've buffed its range to 160 as a result.*
+*Ever since the Leveler has had its range buffed to 140, the Scorpion hasn't been able to compete with it anymore. We've buffed the Scorpion's single-target performance a bit to help it out a bit versus the Leveler.*
 
-*On the other hand, the Scorpion also has some insane scaling due to its excessive splash damage. We've increased its single-target DPS a bit to compensate for heavily nerfing its splash radius.*
+*On the other hand, the Scorpion is also notorious for excessive scaling due to its high splash radius. We've reduced its splash radius a bit to compensate for the increased single target performance.*
 
 - Health: 1650 -> 1700
 - Speed: 8 -> 9
 - Range: 140 -> 145
 - Fire Rate: 0.4 -> 0.75
-- Splash Range: 15 -> 7.5
-- Full Damage Splash Range: 4 -> 3
+- Splash Radius: 15 -> 7.5
+- Full Damage Splash Radius: 4 -> 3
 - Splash damages allies: True -> False
 
 ### Deathmark
-*Since we've sped up all of the other 7 and 8 speed Legion units to some extent, it'd be a bit awkward to leave the Deathmark out of this.*
+*Since we've sped up all of the other 7 and 8 speed Legion units to some extent, it'd be a bit awkward to leave the Deathmark out of this buff.*
 
 - Speed: 8 -> 9
 
@@ -280,8 +280,8 @@ Damage: 125 -> 175
 ### Meteor
 *The Meteor is currently extremely difficult to deal with without air superiority. We've reduced their range and health so they aren't quite as untouchable versus ground forces.*
 
-Range: 250 -> 190
-Health: 2000 -> 1000
+- Range: 250 -> 190
+- Health: 2000 -> 1000
 
 ## ORBITAL STRUCTURES
 
